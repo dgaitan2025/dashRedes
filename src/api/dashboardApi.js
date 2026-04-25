@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'http://biosysapi.somee.com'
+  baseURL: 'https://biosysapi.somee.com'
 })
 
 export const dashboardApi = {
